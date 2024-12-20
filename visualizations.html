@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization - CyberLens</title>
+    <link rel="stylesheet" href="css/visualization.css">
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <aside>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="logout.html">Logout</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+        <header>
+            <h1>Data Visualizations</h1>
+        </header>
+
+        <section>
+            <h2>Network Traffic Analysis</h2>
+            <div class="chart-container">
+                <canvas id="networkChart"></canvas>
+            </div>
+        </section>
+
+        <section>
+            <h2>Attack Vector Distribution</h2>
+            <div class="chart-container">
+                <canvas id="attackChart"></canvas>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 CyberLens. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/data-visualization.js"></script>
+
+</body>
+</html>

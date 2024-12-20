@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Visualizing Intelligence Analysis</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>CyberLens</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sidebar Section -->
+    <aside>
+        <ul>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Threats</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Data Sources</a></li>
+            <li><a href="#">Notifications</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="overview">
+            <h2>System Overview</h2>
+            <div class="status">
+                <div class="status-item">
+                    <h3>Total Active Threats</h3>
+                    <p>5</p>
+                </div>
+                <div class="status-item">
+                    <h3>Recent Alerts</h3>
+                    <p>10</p>
+                </div>
+                <div class="status-item">
+                    <h3>System Health</h3>
+                    <p>Good</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="threats">
+            <h2>Recent Threats</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Threat ID</th>
+                        <th>Type</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#001</td>
+                        <td>Phishing</td>
+                        <td>Active</td>
+                        <td><a href="#">View Details</a></td>
+                    </tr>
+                    <tr>
+                        <td>#002</td>
+                        <td>Malware</td>
+                        <td>Resolved</td>
+                        <td><a href="#">View Details</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="alerts">
+            <h2>Recent Alerts</h2>
+            <ul>
+                <li>Alert #01: Suspicious login attempt detected.</li>
+                <li>Alert #02: Unusual network traffic observed.</li>
+            </ul>
+        </section>
+
+        <section class="visualizations">
+            <h2>Data Visualizations</h2>
+            <div class="chart">
+                <h3>Network Traffic</h3>
+                <img src="images/chart-placeholder.png" alt="Network Traffic Chart">
+            </div>
+            <div class="chart">
+                <h3>Attack Vector Distribution</h3>
+                <img src="images/chart-placeholder.png" alt="Attack Vector Chart">
+            </div>
+        </section>
+
+        <section class="quick-actions">
+            <h2>Quick Actions</h2>
+            <button onclick="window.location.href='new_analysis.html'">Start New Analysis</button>
+            <button onclick="window.location.href='view_report.html'">View Detailed Report</button>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 CyberLens. All rights reserved.</p>
+    </footer>
+</body>
+</html>
